@@ -58,6 +58,8 @@
 	}
  
 ###snipMate插件
+	akaedu@akaedu-desktop:~$ unzip snipMate.zip -d ~/.vim
+				 //"-d"的作用是压缩包解压到~/.vim目录下
 	ctrl+n :补齐
 
 ###配置bash
