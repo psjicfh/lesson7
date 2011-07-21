@@ -70,7 +70,7 @@
 ### akaedu@akaedu-desktop:~$ source .bashrc //相当于重启bash
 ### akaedu@akaedu-desktop:~$ psjicfh fortune
 ### akaedu@akaedu-desktop:~$ psjicfh cowsay // 安装两个软件
-### akaedu@akaedu-desktop:~$ psjicfh fortune | cowsay
+### akaedu@akaedu-desktop:~$ fortune | cowsay
 	 ___________________________________
 	/ Don't look back, the lemmings are \
 	\ gaining on you.                   /
@@ -80,6 +80,24 @@
 		    (__)\       )\/\
 			||----w |
 			||     ||
+
+
+	akaedu@akaedu-desktop:~/work/lesson7$ mkdir psjicfh
+	akaedu@akaedu-desktop:~/work/lesson7$ cd psjicfh/
+	akaedu@akaedu-desktop:~/work/lesson7/psjicfh$ ls
+	akaedu@akaedu-desktop:~/work/lesson7/psjicfh$ touch psjicfh
+	akaedu@akaedu-desktop:~/work/lesson7/psjicfh$ ls
+	psjicfh
+	akaedu@akaedu-desktop:~/work/lesson7/psjicfh$ ls | cowsay
+ _________
+< psjicfh >
+ ---------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
 
 ###光标跳到行尾 end 跳到行首 home
 ###删除一个 Repository
