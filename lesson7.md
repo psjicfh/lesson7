@@ -89,14 +89,14 @@
 	akaedu@akaedu-desktop:~/work/lesson7/psjicfh$ ls
 	psjicfh
 	akaedu@akaedu-desktop:~/work/lesson7/psjicfh$ ls | cowsay
- _________
-< psjicfh >
- ---------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
+	 _________
+	< psjicfh >
+	 ---------
+		\   ^__^
+		 \  (oo)\_______
+		    (__)\       )\/\
+			||----w |
+			||     ||
 
 
 ###光标跳到行尾 end 跳到行首 home
