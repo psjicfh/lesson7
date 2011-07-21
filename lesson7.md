@@ -56,4 +56,28 @@
 		printf("hello world!\n");
 		printf("hello world!\n");
 	}
- 	
+ 
+###snipMate插件
+	ctrl+n :补齐
+
+###配置bash
+	akaedu@akaedu-desktop:~$ vim .bashrc
+	#alias for apt-get
+	alias psjicfh='sudo apt-get install' #新加	
+
+### akaedu@akaedu-desktop:~$ source .bashrc //相当于重启bash
+### akaedu@akaedu-desktop:~$ psjicfh fortune
+### akaedu@akaedu-desktop:~$ psjicfh cowsay //
+### akaedu@akaedu-desktop:~$ psjicfh fortune | cowsay
+	 ___________________________________
+	/ Don't look back, the lemmings are \
+	\ gaining on you.                   /
+	 -----------------------------------
+		\   ^__^
+		 \  (oo)\_______
+		    (__)\       )\/\
+			||----w |
+			||     ||
+
+
+
