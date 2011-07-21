@@ -82,4 +82,18 @@
 			||     ||
 
 ###光标跳到行尾 end 跳到行首 home
+###删除一个 Repository
+    Dashboard -> 要删除的Repository -> 右上角 Admin -> 
+    右下角Delete this repository
+###删除仓库中的一个文件
+    kaedu@akaedu-desktop:~/work/lesson7/lesson7_project$ vim lesson7_1.c
+    akaedu@akaedu-desktop:~/work/lesson7/lesson7_project$ git add lesson7_1.c
+    akaedu@akaedu-desktop:~/work/lesson7/lesson7_project$ git commit -a -m "less    on7_1.c"
+    akaedu@akaedu-desktop:~/work/lesson7/lesson7_project$ git push
+	//此时仓库lesson7_project中就有了两个文件 lesson7.c lesson7_1.c
 
+    删除步骤：
+    akaedu@akaedu-desktop:~/work/lesson7/lesson7_project$ git rm lesson7_1.c
+    akaedu@akaedu-desktop:~/work/lesson7/lesson7_project$ git commit -a
+    akaedu@akaedu-desktop:~/work/lesson7/lesson7_project$ git push
+    删除仓库中的 lesson7_1.c 成功
