@@ -69,7 +69,7 @@
 
 ### akaedu@akaedu-desktop:~$ source .bashrc //相当于重启bash
 ### akaedu@akaedu-desktop:~$ psjicfh fortune
-### akaedu@akaedu-desktop:~$ psjicfh cowsay //
+### akaedu@akaedu-desktop:~$ psjicfh cowsay // 安装两个软件
 ### akaedu@akaedu-desktop:~$ psjicfh fortune | cowsay
 	 ___________________________________
 	/ Don't look back, the lemmings are \
@@ -81,5 +81,5 @@
 			||----w |
 			||     ||
 
-
+###光标跳到行尾 end 跳到行首 home
 
