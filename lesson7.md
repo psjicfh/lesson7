@@ -61,6 +61,7 @@
 	akaedu@akaedu-desktop:~$ unzip snipMate.zip -d ~/.vim
 				 //"-d"的作用是压缩包解压到~/.vim目录下
 	ctrl+n :补齐
+http://www.vim.org/scripts/script.php?script_id=2540
 
 ###配置bash
 	akaedu@akaedu-desktop:~$ vim .bashrc
@@ -115,3 +116,7 @@
     akaedu@akaedu-desktop:~/work/lesson7/lesson7_project$ git commit -a
     akaedu@akaedu-desktop:~/work/lesson7/lesson7_project$ git push
     删除仓库中的 lesson7_1.c 成功
+##linux命令集
+http://man.lupaworld.com/content/manage/ringkee/command.htm
+
+
